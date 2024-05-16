@@ -1,6 +1,6 @@
 {
     "RunContainer": false,
-    "OutputFolder": "C:\\Users\\mod09\\Documents\\GitHub\\Goyo_proto\\Build\\MPS\\mps_output",
+    "OutputFolder": "",
     "NumHeartBeatsForActivateResponse": 10,
     "NumHeartBeatsForMaintenanceEventResponse": 0, // a value < 1 will disable the maintenance event
     "NumHeartBeatsForTerminateResponse": 60,
@@ -12,7 +12,7 @@
     "AssetDetails": [
         {
             "MountPath": "C:\\Assets",
-            "LocalFilePath": "C:\\Users\\mod09\\Documents\\GitHub\\Goyo_proto\\Build\\MPS\\WindowsServer.zip"
+            "LocalFilePath": "<path_to_game_server_package>"
         }
     ],
     "DeploymentMetadata": {
@@ -33,10 +33,10 @@
         ]
     ],
     "ProcessStartParameters": {
-        "StartGameCommand": "C:\\Users\\mod09\\Documents\\GitHub\\Goyo_proto\\Build\\0516f-shipping\\WindowsServer\\Goyo_proto\\Binaries\\Win64\\Goyo_protoServer-Win64-Shipping.exe -log"
+        "StartGameCommand": "<your_game_server_exe>"
     },
     "ContainerStartParameters": {
-        "StartGameCommand": "C:\\Users\\mod09\\Documents\\GitHub\\Goyo_proto\\Build\\0516f-shipping\\WindowsServer\\Goyo_proto\\Binaries\\Win64\\Goyo_protoServer-Win64-Shipping.exe -log",
+        "StartGameCommand": "C:\\Assets\\<your_game_server_exe>",
         "ResourceLimits": {
             "Cpus": 0,
             "MemoryGib": 0
