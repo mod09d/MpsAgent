@@ -30,7 +30,7 @@
   "BuildId": "4eb36954-3433-4200-8c36-37a0fc4650fb",
   "RunMode": 0,
   "ProcessStartParameters": {
-    "StartGameCommand": "Goyo_protoServer -log"
+    "StartGameCommand": "Goyo_proto\\Binaries\\Win64\\Goyo_protoServer-Win64-Shipping.exe -log"
   },
   "OutputFolder": "C:\\Users\\mod09\\Documents\\GitHub\\Goyo_proto\\Build\\MPS\\mps_output",
   "NumHeartBeatsForActivateResponse": 10,
